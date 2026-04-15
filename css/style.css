@@ -29,10 +29,8 @@ header {
 }
 
 .logo {
-  color: #EEEDFE;
-  font-size: 22px;
-  font-weight: 600;
-  letter-spacing: 1px;
+  width: 120px;
+  height: 40px;
 }
 
 nav ul {
