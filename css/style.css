@@ -218,3 +218,19 @@ footer {
 .item:hover img {
   transform: scale(1.1);
 }
+.redes-sociais i {
+  font-size: 24px;
+  color: white;
+  background-color: #8da42c; /* Cor verde aproximada da imagem */
+  width: 45px;
+  height: 45px;
+  border-radius: 50%; /* Faz o círculo */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  transition: 0.3s;
+}
+.redes-sociais i:hover {
+  filter: brightness(1.2); /* Efeito visual ao passar o mouse */
+}
