@@ -281,37 +281,52 @@ footer {
   border-radius: 10px;
 }
 
+.par-sobre{
+    font-size: 2.5rem;
+    color: #ffffff;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    padding: 20px 30px;
+}
+
 .p-1{
 
     font-size: 1.1rem;
-    color: #000000;
+    color: #ffffff;
     line-height: 1.8;
     margin-bottom: 50px;
     border-radius: 10px;
-    background-color:rgb(206, 181, 42);
     padding: 20px 30px;
+    background-color: #1f1f1fb9;
 }
 
 .p-2{
 
     font-size: 1.1rem;
-    color: #000000;
+    color: #ffffff;
     line-height: 1.8;
-    margin-bottom: 50px;
+    padding: 30px;
+    background-color: #1f1f1fb9;
     border-radius: 10px;
-    background-color:rgb(206, 181, 42);
-    padding: 20px 30px;
 }
 .gap-sobre{
-
     display: block;
     margin: 20px auto;
     max-width: 100%;       
     width: 600px;         
-    height: 350px;         
+    height: 250px;         
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     padding: 10px;
     background-color: #1f1f1f;
+}
+
+.section-sobre{
+    background-image: url(/assets/leagueoflegends-1776810405901-8320.jpg);
+    height: auto;
+    background-size: cover;
+    background-position: center;
+
 }
