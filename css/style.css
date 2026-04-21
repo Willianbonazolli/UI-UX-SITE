@@ -280,3 +280,14 @@ footer {
   height: 250px;
   border-radius: 10px;
 }
+
+.p-1{
+
+    font-size: 1.1rem;
+    color: #0c0000;
+    line-height: 1.8;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    background-color:rgb(206, 181, 42);
+    padding: 20px 30px;
+}
