@@ -284,10 +284,34 @@ footer {
 .p-1{
 
     font-size: 1.1rem;
-    color: #0c0000;
+    color: #000000;
     line-height: 1.8;
     margin-bottom: 50px;
     border-radius: 10px;
     background-color:rgb(206, 181, 42);
     padding: 20px 30px;
+}
+
+.p-2{
+
+    font-size: 1.1rem;
+    color: #000000;
+    line-height: 1.8;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    background-color:rgb(206, 181, 42);
+    padding: 20px 30px;
+}
+.gap-sobre{
+
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;       
+    width: 600px;         
+    height: 350px;         
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    padding: 10px;
+    background-color: #1f1f1f;
 }
