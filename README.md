@@ -4,15 +4,15 @@ Um site simples informativo desenvolvido como projeto acadêmico de UI/UX, focad
 
 O site foi feito com somente com:
 
-HTML -> Estrutura semântica 
-CSS -> Estilização
-GITHUB -> Versionamento
+HTML -> Estrutura semântica <br>
+CSS -> Estilização <br>
+GITHUB -> Versionamento <br>
 
 <img width="944" height="563" alt="image" src="https://github.com/user-attachments/assets/dfe9ae96-cceb-44ab-a46b-a295b9a01a84" />
 
 Páginas
 
-Home — Apresentação do site.
-Galeria — Grid de itens com hover interativo.
-Sobre — Contexto e motivação do projeto.
+Home — Apresentação do site. <br>
+Galeria — Grid de itens com hover interativo. <br>
+Sobre — Contexto e motivação do projeto. <br>
 Contato — Formulário.
