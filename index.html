@@ -1,97 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LoL</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LoL</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
+  <body>
+    <header>
+      <div class="container-header">
+        <a href="index.html">
+          <img class="logo" src="assets/logo-lol.png" alt="logo do lol" />
+        </a>
 
-<header>
-  <div class="container-header">
+        <nav>
+          <ul>
+            <li><a href="pages/galeria.html">Galeria</a></li>
+            <li><a href="pages/sobre.html">Sobre</a></li>
+            <li><a href="pages/contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-    <a href="index.html">
+    <main>
+      <section id="home" class="card-home">
+        <div class="home-conteudo">
+          <div class="texto">
+            <p>Guia de Itens · League of Legends</p>
+            <h1>DOMINE O <span>META</span> DO JOSUÉ</h1>
+            <p>
+              Builds eficientes, dicas práticas e explicações diretas ao ponto.
+              Seja pra carregar de Warwick ou sobreviver ao early game, a
+              estratégia certa faz toda a diferença.
+            </p>
+          </div>
 
-    <img class="logo" src="assets/logo-lol.png" alt="logo do lol">
-    
-    </a>
+          <div class="worlds">
+            <img src="assets/josuelol.png" alt="Gameplay" />
+          </div>
 
-    <nav>
-      <ul>
+          <div class="texto-baixo">
+            <h1>Aprenda a jogar melhor</h1>
+            <p>
+              Com nossos guias, você não só aprende o básico, você começa a
+              entender o jogo de verdade. Vamos te ajudar a tomar decisões
+              melhores, escolher os itens certos e evoluir de forma consistente.
+            </p>
+            <p>
+              Chega de cair na mesma build toda partida ou depender da sorte.
+              Aqui é evolução real.
+            </p>
+            <br />
+            <h1>Não perca tempo, comece agora mesmo!</h1>
+            <p>Dê uma olhada nos itens mais populares do jogo!</p>
 
-        <li><a href="pages/galeria.html">Galeria</a></li>
-        <li><a href="pages/sobre.html">Sobre</a></li>
-        <li><a href="pages/contato.html">Contato</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+            <div class="itens-scroll">
+              <a href="pages/galeria.html" class="scroll-container"
+                >Explorar itens</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-<main>
-
-<section id="home" class="card-home">
-  <div class="home-conteudo">
-
-    <div class="texto">
-      <h2>Guia de Itens de League of Legends</h2>
-      <p>Se você quer parar de buildar errado e começar a realmente impactar suas partidas, você tá no lugar certo. Este guia foi feito pra ajudar jogadores de todos os níveis a entender melhor os itens do League of Legends e usar isso a seu favor dentro do jogo.</p>
-      <p>Aqui você vai encontrar dicas práticas, builds eficientes e explicações diretas ao ponto — nada de enrolação. Seja pra carregar de Warwick ou simplesmente parar de sofrer no early game, a ideia é te dar o conhecimento que realmente faz diferença.
-      </p>
-      <p>
-         A imagem ao lado mostra um exemplo de gameplay na prática. E olha… se até jogador meio perdido consegue chegar longe com a build certa, imagina você jogando com estratégia de verdade.
-      </p>
-    </div>
-
-    <div class="worlds">
-      <img src="assets/josuelol.png" alt="Gameplay">
-    </div>
-
-  </div>
-
-  <div class="texto-baixo">
-    <h2>Aprenda a jogar melhor</h2>
-    <p>Com nossos guias, você não só aprende o básico — você começa a entender o jogo de verdade. Vamos te ajudar a tomar decisões melhores, escolher os itens certos e evoluir de forma consistente.</p>
-    <p>Chega de cair na mesma build toda partida ou depender da sorte. Aqui é evolução real.</p>
-    <br>
-    <h2>Não perca tempo, comece agora mesmo!</h2>    
-    <p>De uma olhada nos itens mais populares do jogo!</p>
-<section class="itens-scroll">
-  <h2>Itens populares</h2>
-
-  <div class="scroll-container">
-    <a href="pages/galeria.html">
-      <img src= "assets/blackcleaver.webp" alt="Black Cleaver">
-    </a>
-    <a href="pages/galeria.html">
-      <img src= "assets/eclipse.jpg" alt="Eclipse">
-    </a>
-    <a href="pages/galeria.html">
-      <img src= "assets/luden.jpeg" alt="Luden's Tempest">
-    </a>
-    <a href="pages/galeria.html">
-      <img src= "assets/hemodrenario.png" alt="Hemodrenário">
-    </a>
-  </div>
-</section>
-
-  </div>
-
-</section>
-
-</main>
-
-      <footer>
+    <footer>
       <div class="redes-sociais">
         <p>Siga nossas redes sociais:</p>
-        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"><img src="assets/link.png" alt=""></i></a>
-        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"><img src="assets/insta.png"
-              alt=""></i></a>
-        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"><img src="assets/face.png" alt=""></i></a>
+        <a href="https://linkedin.com" target="_blank"
+          ><i class="fab fa-linkedin"><img src="assets/link.png" alt="" /></i
+        ></a>
+        <a href="https://instagram.com" target="_blank"
+          ><i class="fab fa-instagram"><img src="assets/insta.png" alt="" /></i
+        ></a>
+        <a href="https://facebook.com" target="_blank"
+          ><i class="fab fa-facebook"><img src="assets/face.png" alt="" /></i
+        ></a>
       </div>
       <p>© 2026 - Projeto Acadêmico de UI/UX</p>
     </footer>
-
-</body>
+  </body>
 </html>
