@@ -343,9 +343,9 @@ footer {
 }
 
 .section-sobre{
-    background-image: url(/assets/leagueoflegends-1776810405901-8320.jpg);
+    background-image: url(../assets//leagueoflegends-1776810405901-8320.jpg);
     height: 100%;
-    background-size: fill;
+    background-size: cover;
     background-position: center;
 
 
