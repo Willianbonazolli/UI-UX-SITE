@@ -364,3 +364,26 @@ footer {
 
 
 }
+
+.itens-scroll {
+  padding: 40px;
+  color: white;
+}
+
+.scroll-container {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 10px;
+}
+
+.scroll-container img {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  transition: transform 0.3s;
+}
+
+.scroll-container img:hover {
+  transform: scale(1.1);
+}
